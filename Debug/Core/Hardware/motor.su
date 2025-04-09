@@ -1,0 +1,5 @@
+../Core/Hardware/motor.c:20:6:motor_timer_init	8	static
+../Core/Hardware/motor.c:31:6:HAL_TIM_OC_DelayElapsedCallback	24	static
+../Core/Hardware/motor.c:44:10:Read_pulse	4	static
+../Core/Hardware/motor.c:50:6:Change_dir	16	static
+../Core/Hardware/motor.c:59:7:Rotate_Givenpulse	16	static

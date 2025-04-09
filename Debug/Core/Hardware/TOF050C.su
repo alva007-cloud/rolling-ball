@@ -1,0 +1,16 @@
+../Core/Hardware/TOF050C.c:24:6:VL6180X_WR_CMD	32	static
+../Core/Hardware/TOF050C.c:33:6:VL6180X_WR_CMD2	32	static
+../Core/Hardware/TOF050C.c:43:9:VL6180X_ReadByte	32	static
+../Core/Hardware/TOF050C.c:54:9:VL6180X_Init	16	static
+../Core/Hardware/TOF050C.c:112:6:VL6180X_SetScaling	24	static
+../Core/Hardware/TOF050C.c:136:6:VL6180X_ConfigureDefault	8	static
+../Core/Hardware/TOF050C.c:151:16:VL6180_Read_Range	16	static
+../Core/Hardware/TOF050C.c:158:6:VL6180X_SetTimeout	16	static
+../Core/Hardware/TOF050C.c:163:9:VL6180X_Start_Range	8	static
+../Core/Hardware/TOF050C.c:172:9:VL6180X_Poll_Range	16	static
+../Core/Hardware/TOF050C.c:194:6:VL6180X_Clear_Interrupt	8	static
+../Core/Hardware/TOF050C.c:199:10:VL6180X_ReadRangeSingleMillimeters	16	static
+../Core/Hardware/TOF050C.c:209:17:VL6280X_GetRtn	16	static
+../Core/Hardware/TOF050C.c:221:6:VL6180X_Offset_Calibration	16	static
+../Core/Hardware/TOF050C.c:238:9:VL6180X_CrossTalk_Callibration	24	static
+../Core/Hardware/TOF050C.c:265:7:filter	32	static

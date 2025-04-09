@@ -1,0 +1,14 @@
+关于工程文件夹目录说明：
+
+板载外设驱动程序：
+font.h, OLED.h, motor.h, TOF050C.h, usart_with_zdt.h
+
+具体的应用层：
+state_machine.h < key.h
+
+key.h是通过用10ms定时器+状态机扫描按键的状态，然后通过不同按键的状态改变任务的状态标志，依托了state_machine和其他的外设驱动层
+
+state_machine以来了外设驱动程序，结合key.h和朴素的状态机来改变状态标志位，从而调用不同的业务函数。在状态running中可以放置时间切片，结合了状态机和时间片
+更好地管理任务
+
+

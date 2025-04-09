@@ -1,0 +1,3 @@
+../Core/Hardware/Encoder.c:12:6:Encoder_Init	8	static
+../Core/Hardware/Encoder.c:19:17:Read_RawEncoder	4	static
+../Core/Hardware/Encoder.c:28:10:Read_ProcessedEncoder	16	static
